@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Khushi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="devportfolio_style.css">
+    <script src="devportfolio_page.js" defer></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#project" class="nav-link">Project</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+            <span class="theme-icon">🌙</span>
+        </button>
+    </nav>
+
+    <section class="hero section" id="hero">
+        <div class="hero-content fade-in">
+            <h1>Hi! I'm <span>Khushi</span></h1>
+            <h3 class="hero-title">Full Stack Developer</h3>
+            <p class="hero-subtitle">An experienced full-stack developer with a passion for crafting unique digital experiences.</p>
+            <div class="hero-action">
+                <a href="#project" class="btn btn-primary">View my work</a>
+                <a href="#contact" class="btn btn-secondary">Get in touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about" id="about">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-container fade-in">
+            <div class="about-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Khushi Profile Picture">
+            </div>
+            <div class="about-text">
+                <p>I am a passionate web developer with a strong foundation in building modern, responsive, and user-centric websites. I love solving problems through code and transforming complex ideas into simple, elegant digital interfaces.</p>
+                <p>When I'm not coding, you can find me exploring new design trends, contributing to open-source projects, or sipping coffee while reading technical blogs.</p>
+                <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3 / SASS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React</li>
+                    <li>Git / GitHub</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section education" id="education">
+        <h2 class="section-title fade-in">Education</h2>
+        <div class="education-table-wrapper fade-in">
+            <table>
+                <thead>
+                    <tr>
+                        <th>SEMESTER</th>
+                        <th>SGPA</th>
+                        <th>Credits</th>
+                        <th>TGP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FIRST SEM</td>
+                        <td>8.30</td>
+                        <td>20</td>
+                        <td>166</td>
+                    </tr>
+                    <tr>
+                        <td>SECOND SEM</td>
+                        <td>8.50</td>
+                        <td>20</td>
+                        <td>170</td>
+                    </tr>
+                    <tr>
+                        <td>THIRD SEM</td>
+                        <td>8.80</td>
+                        <td>20</td>
+                        <td>176</td>
+                    </tr>
+                    <tr>
+                        <td>FOURTH SEM</td>
+                        <td>8.60</td>
+                        <td>20</td>
+                        <td>172</td>
+                    </tr>
+                    <tr>
+                        <td>FIFTH SEM</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>SIXTH SEM</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="section project" id="project">
+        <h2 class="section-title fade-in">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Dashboard Preview" class="project-img">
+                <div class="project-info">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>A responsive admin panel built with modern HTML5 and CSS Grid, featuring real-time data charts and theme switching.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80" alt="Task Management App Preview" class="project-img">
+                <div class="project-info">
+                    <h3>Task Tracker App</h3>
+                    <p>An interactive productivity web app allowing users to manage daily tasks, set priorities, and track completed goals with LocalStorage.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <h2 class="section-title fade-in">Get In Touch</h2>
+        <div class="contact-container fade-in">
+            <div class="contact-info">
+                <h3>Let's work together!</h3>
+                <p>I'm currently open for freelance opportunities and full-time positions. Feel free to reach out via form or social links!</p>
+                <div class="social-links">
+                    <a href="mailto:example@email.com" class="social-item">
+                        <i class="fa-solid fa-envelope"></i> Email
+                    </a>
+                    <a href="https://github.com" target="_blank" class="social-item">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="social-item">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <form id="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" />
+                    <small class="error-msg" id="name-error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" />
+                    <small class="error-msg" id="email-error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message..."></textarea>
+                    <small class="error-msg" id="message-error"></small>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <p id="form-success" class="success-msg"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Khushi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
